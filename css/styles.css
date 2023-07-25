@@ -6,6 +6,15 @@ body{
 
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+  margin: 0;
+}
+
 .sidebar{
   grid-column: 1/2;
   grid-row: 1/3;
@@ -13,9 +22,31 @@ body{
   color: rgb(249, 239, 239);
 }
 
+#dashboard, .channels, .user-help{
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.channels, .user-help{
+  margin-top: 80px;
+}
+
+#dashboard{
+  margin-top: 30px;
+}
+
 .header{
+  display: grid;
+  
 }
 
 .main-content{
-  grid-column: 2/3;
+  background-color: #f0eded;
+}
+
+.box{
+  border: 2px solid black;
+  width: 200px;
 }
