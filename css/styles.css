@@ -1,4 +1,6 @@
-.container{
+body{
+  margin: 0;
+  padding: 0;
   display: grid;
   grid-template-columns: 300px 1fr;
 
@@ -7,6 +9,8 @@
 .sidebar{
   grid-column: 1/2;
   grid-row: 1/3;
+  background-color: rgb(8, 135, 177);
+  color: rgb(249, 239, 239);
 }
 
 .header{
