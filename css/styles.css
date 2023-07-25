@@ -39,11 +39,69 @@ h6{
 
 .header{
   display: grid;
-  
+  grid-template-rows: 1fr 1fr;
+  height: 200px;
+}
+
+.top-header{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.bottom-header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.userGreet{
+  display: flex;
+  flex-direction: column;
+}
+
+.buttons{
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+}
+
+#searchbar{
+  flex: 1;
+  min-width: 40px;
+  height: 30px;
+  border-radius: 16px;
+  border-style: none;
+  background-color: #f0eded;
+}
+
+button{
+  border-style: none;
+  border-radius: 10px;
+  width: 90px;
+  height: 35px;
+  background-color: rgb(8, 135, 177);
+  color: rgb(249, 239, 239);
 }
 
 .main-content{
+  display: grid;
+  grid-template-columns: 1fr 300px;
   background-color: #f0eded;
+}
+
+.box-content{
+  grid-column: 1/2;
+}
+
+.announce{
+  grid-column: 2/3;
+  border: 2px dotted black;
+}
+
+.trending{
+  grid-column: 2/3;
+  border: 2px dotted black;
 }
 
 .box{
