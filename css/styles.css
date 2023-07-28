@@ -143,6 +143,14 @@ button{
   gap: 35px;
 }
 
+.contentIcons{
+  display: grid;
+  width: 6rem;
+  grid-template-rows: 1fr;
+  grid-auto-flow: column;
+  gap: 10px;
+}
+
 #announceTitle{
   grid-column: 2/3;
   grid-row: 1/2;
