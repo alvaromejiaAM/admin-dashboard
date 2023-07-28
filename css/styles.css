@@ -1,7 +1,7 @@
 :root{
   --sidebar-color:#0ea5e9;
-  --default-white: white;
-  --greyish-color: #f0eded;
+  --default-white: #fff;
+  --greyish-color: #d6e2ed;
 }
 
 body{
