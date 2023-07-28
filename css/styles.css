@@ -23,26 +23,46 @@ p{
   margin: 0;
 }
 
+#dashboardIcon{
+  width: 80px;
+  filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(344deg) brightness(104%) contrast(106%);
+}
+
+.sideIcon{
+  width: 2em;
+  filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(344deg) brightness(104%) contrast(106%);
+}
+
 .sidebar{
   grid-column: 1/2;
   grid-row: 1/3;
+  padding-top: 20px;
   background-color: var(--sidebar-color);
   color: var(--default-white);
-}
-
-#dashboard, .channels, .user-help{
-  margin-left: 20px;
-  display: flex;
-  flex-direction: column;
-  gap: 14px;
+  font-size: 1.3em;
 }
 
 .channels, .user-help{
+  margin-left: 40px;
   margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 14px;
 }
 
-#dashboard{
-  margin-top: 30px;
+.dashboard{
+  margin-top: 14px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.iconText{
+  display: flex;
+  align-items: center;
+  gap: 20px;
 }
 
 .header{
