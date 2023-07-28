@@ -91,6 +91,19 @@ p{
   padding-right: 30px;
 }
 
+#dogTopH{
+  width: 75px;
+  padding-right: 20px;
+  object-fit: scale-down;
+  border-radius: 50%;
+}
+
+#dogBottomH{
+  width: 130px;
+  border-radius: 50%;
+  padding-right: 30px;
+}
+
 .bottom-header{
   display: flex;
   justify-content: space-between;
@@ -101,6 +114,13 @@ p{
 .userGreet{
   display: flex;
   flex-direction: column;
+}
+
+.headerActions {
+  display: flex;
+  justify-content: space-between;
+  flex: 1;
+  align-content: center;
 }
 
 .buttons{
