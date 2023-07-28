@@ -39,7 +39,7 @@ p{
   padding-top: 20px;
   background-color: var(--sidebar-color);
   color: var(--default-white);
-  font-size: 1.3em;
+  font-size: 1.3rem;
 }
 
 .channels, .user-help{
@@ -79,6 +79,17 @@ p{
   padding-right: 30px;
 }
 
+#bellIcon{
+  width: 30px;
+  padding-left: 100px;
+  padding-right: 20px;
+}
+
+#searchIcon{
+  width: 40px;
+  padding-right: 30px;
+}
+
 .bottom-header{
   display: flex;
   justify-content: space-between;
@@ -104,6 +115,7 @@ p{
   border-radius: 16px;
   border-style: none;
   background-color: var(--greyish-color);
+  font-size: 1.1rem;
 }
 
 button{
